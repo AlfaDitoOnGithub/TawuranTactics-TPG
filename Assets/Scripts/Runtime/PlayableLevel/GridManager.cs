@@ -33,7 +33,7 @@ public class GridManager : MonoBehaviour
             GenerateGrid();
     }
 
-    public getTileAtPosition(Vector2 position)
+    public Tile getTileAtPosition(Vector2 position)
     {
         if( _tiles.TryGetValue(position, out var tile) )
         {
